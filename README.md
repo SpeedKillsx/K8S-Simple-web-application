@@ -1,6 +1,6 @@
 # kub-first
 
-A beginner-friendly Kubernetes project to help you get started with container orchestration.
+A beginner-friendly Kubernetes project to help you get started with container orchestration using Minikube.
 
 ## Features
 
