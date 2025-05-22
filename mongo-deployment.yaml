@@ -20,10 +20,11 @@ spec:
         - name: MONGO_INITDB_ROOT_USERNAME
           valueFrom:
             secretKeyRef:
-              key: username
               name: mongo-secret
+              key: username
+
         - name: MONGO_INITDB_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
-              key: password
               name: mongo-secret
+              key: password
