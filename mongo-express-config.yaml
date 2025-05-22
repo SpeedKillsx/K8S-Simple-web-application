@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: mongo-express-config
 data:
-  ME_CONFIG_MONGODB_SERVER: mongo-express-service
-  ME_CONFIG_MONGODB_PORT: "8081"
+  ME_CONFIG_MONGODB_SERVER: mongo-service
+  ME_CONFIG_MONGODB_PORT: "27017"
