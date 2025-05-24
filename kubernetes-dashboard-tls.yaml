@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: kubernetes-dashboard-tls
+  namespace: kubernetes-dashboard
+  labels:
+    name: kubernetes-dashboard-tls
+data:
+  tls.crt: base64 encoded cert
+  tls.key: base64 encoded key
+type: kubernetes.io/tls
